@@ -34,7 +34,7 @@ var getUsers = exports.getUsers = /*#__PURE__*/function () {
         case 10:
           _context.prev = 10;
           _context.t0 = _context["catch"](0);
-          res.send(false);
+          res.send(true);
           console.log(_context.t0.message);
         case 14:
         case "end":
