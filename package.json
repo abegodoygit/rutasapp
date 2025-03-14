@@ -2,11 +2,11 @@
   "name": "nodejs-sqlserver-api",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+ 
   "scripts": {
     "dev": "nodemon src/index.js",
     "build": "babel src -d dist",
-    "start": "node src/app.js"
+    "start": "node dist"
   },
   "keywords": [],
   "author": "",
