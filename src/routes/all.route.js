@@ -16,7 +16,7 @@ const router=Router()
 router.get('/usuario',getUsers) //si ingresa a esa ruta ejecuta la funcion getUser importado desde UsuarioController
 router.get('/usuario/:id',getbyId)
 router.post('/usuario',addUser)
-//router.put('/usuario',updateUser)
+//router.put('/usuario',updateUser)g
 router.put('/usuario/:id',updateUser)
 router.delete('/usuario/:id',delUser)
 
