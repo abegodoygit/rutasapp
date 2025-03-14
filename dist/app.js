@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var _express = _interopRequireDefault(require("express"));
 var _config = _interopRequireDefault(require("./config.js"));
-var _allRoutes = _interopRequireDefault(require("./routes/all.routes.js"));
+var _allRoute = _interopRequireDefault(require("./routes/all.route.js"));
 //import userRoutes from './routes/users.routes.js'
 
 var app = (0, _express["default"])();
@@ -22,5 +22,5 @@ app.use(_express["default"].urlencoded({
 }));
 app.use(cors());
 //app.use(userRoutes);
-app.use(_allRoutes["default"], _allRoutes["default"]);
+app.use(_allRoute["default"], _allRoute["default"]);
 var _default = exports["default"] = app;
