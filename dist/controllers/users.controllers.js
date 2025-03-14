@@ -29,13 +29,14 @@ var getUsers = exports.getUsers = /*#__PURE__*/function () {
         case 6:
           result = _context.sent;
           res.json(result.recordset);
-          _context.next = 13;
+          _context.next = 14;
           break;
         case 10:
           _context.prev = 10;
           _context.t0 = _context["catch"](0);
           res.send(false);
-        case 13:
+          console.log(_context.t0.message);
+        case 14:
         case "end":
           return _context.stop();
       }
