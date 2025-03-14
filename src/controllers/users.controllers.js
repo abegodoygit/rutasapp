@@ -10,7 +10,7 @@ export const getUsers=async(req,res)=>{
     const result= await pool.request().query(queries.getusers)  
     res.json(result.recordset) 
     } catch (error) {
-        res.send(false)
+        res.send(error.message)
         //console.log(error.message) 
     }    
 
