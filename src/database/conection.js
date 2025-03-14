@@ -3,14 +3,14 @@ import config from '../config.js'
 
 
 const dbSettings={
-/*user:'AbeGoodVar_SQLLogin_1',
+user:'AbeGoodVar_SQLLogin_1',
 password:'8imv6anfof',
 server:'rutasDB.mssql.somee.com',
-database:'rutasDB',*/
-user:config.dbUser,
+database:'rutasDB',
+/*user:config.dbUser,
 password:config.dbPassword,
 server:config.dbServer,
-database:config.dbDatabase,
+database:config.dbDatabase,*/
 options: {
     encrypt: true, // for azure
     trustServerCertificate: true // change to true for local dev / self-signed certs

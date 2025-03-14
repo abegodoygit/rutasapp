@@ -16,14 +16,14 @@ var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/
 var _mssql = _interopRequireDefault(require("mssql"));
 var _config = _interopRequireDefault(require("../config.js"));
 var dbSettings = {
-  /*user:'AbeGoodVar_SQLLogin_1',
-  password:'8imv6anfof',
-  server:'rutasDB.mssql.somee.com',
-  database:'rutasDB',*/
-  user: _config["default"].dbUser,
-  password: _config["default"].dbPassword,
-  server: _config["default"].dbServer,
-  database: _config["default"].dbDatabase,
+  user: 'AbeGoodVar_SQLLogin_1',
+  password: '8imv6anfof',
+  server: 'rutasDB.mssql.somee.com',
+  database: 'rutasDB',
+  /*user:config.dbUser,
+  password:config.dbPassword,
+  server:config.dbServer,
+  database:config.dbDatabase,*/
   options: {
     encrypt: true,
     // for azure

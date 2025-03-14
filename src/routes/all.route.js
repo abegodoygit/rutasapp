@@ -11,7 +11,7 @@ import { addDestino, addZona, deleteDestino, deleteZona, getDestinoinner, getDes
 import { addCoordenada, deleteCoordenada, getCoordenada, updateCoordenada } from '../controllers/coordenada.controller.js';
 import { addRuta, deleteRuta, getRutaAdd, getRutaapp, getRutaEdit, getRutaShow, updateRuta } from '../controllers/ruta.controller.js';
 
-const router=Router()
+const router=Router()                   
 
 router.get('/usuario',getUsers) //si ingresa a esa ruta ejecuta la funcion getUser importado desde UsuarioController
 router.get('/usuario/:id',getbyId)
