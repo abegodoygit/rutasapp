@@ -4,6 +4,6 @@ import app from "./app.js"
 
 //getConnection()
 
-app.listen(3000)
+app.listen(app.get('port'))
 
-console.log('Servidor iniciado!!')
+//console.log('Servidor iniciado!!')

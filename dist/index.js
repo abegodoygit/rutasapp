@@ -6,5 +6,6 @@ var _app = _interopRequireDefault(require("./app.js"));
 
 //getConnection()
 
-_app["default"].listen(3000);
-console.log('Servidor iniciado!!');
+_app["default"].listen(_app["default"].get('port'));
+
+//console.log('Servidor iniciado!!')
