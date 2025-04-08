@@ -27,7 +27,7 @@ router.put('/linea/:id',updateLinea)
 router.delete('/linea/:id',deleteLinea)
 router.get('/lineas',getLineaAll)
 
-router.get('/bus',getBuses)// obtenemos todas las unidades
+router.get('/buses',getBuses)// obtenemos todas las unidades
 router.get('/bus/:placa',getBus)//obtenemos la unidad por placa
 router.get('/buslinea/:lin',getBusLinea) // obtenemos todas las unidades de una linea
 router.post('/bus',addBus)
