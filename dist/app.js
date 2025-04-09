@@ -13,7 +13,7 @@ var _allRoute = _interopRequireDefault(require("./routes/all.route.js"));
 var app = (0, _express["default"])();
 
 //const cors = require('cors');
-
+var cors = require('cors');
 app.set('port', _config["default"].port);
 app.use(_express["default"].json());
 
@@ -22,8 +22,8 @@ app.use(_express["default"].json());
 app.use(_express["default"].urlencoded({
   extended: false
 }));
-
+app.use(cors());
 //app.use(cors())
 //app.use(userRoutes);
-app.use(_allRoute["default"]);
+app.use(_allRoute["default"], _allRoute["default"]);
 var _default = exports["default"] = app;

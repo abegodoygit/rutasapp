@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:false}))
 app.use(cors())
 //app.use(cors())
 //app.use(userRoutes);
-app.use(allRoutes)
+app.use(allRoutes,allRoutes)
 
 
 export default app
