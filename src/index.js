@@ -8,4 +8,4 @@ app.listen(app.get('port'))
 
 //console.log('Servidor iniciado!!')
 
-console.log('este mensaje solo aparece en la rama login de git')
+//console.log('este mensaje solo aparece en la rama login de git')
