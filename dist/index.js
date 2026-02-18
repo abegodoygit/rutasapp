@@ -9,3 +9,4 @@ var _app = _interopRequireDefault(require("./app.js"));
 _app["default"].listen(_app["default"].get('port'));
 
 //console.log('Servidor iniciado!!')
+
